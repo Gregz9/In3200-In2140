@@ -13,5 +13,9 @@ compile3: tut3.c
 	gcc tut3.c -o demo3 
 	./demo3
 
+compile4: array_pointers.c 
+	gcc array_pointers.c -o arrays 
+	./arrays
+
 clean: 
-	rm -f demo3 demo2 demo1
+	rm -f demo3 demo2 demo1 arrays
